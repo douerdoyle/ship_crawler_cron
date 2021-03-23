@@ -1,0 +1,13 @@
+Flask
+Flask-SQLAlchemy
+PyMySQL
+python-dateutil
+requests
+elasticsearch
+SQLAlchemy
+SQLAlchemy-Utils
+setuptools
+PyExecJS
+psutil
+lxml
+OpenCC

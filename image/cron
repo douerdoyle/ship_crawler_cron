@@ -1,0 +1,13 @@
+SERIAL=0
+API_PROPERTY=EASPNET_FORMALITY
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# m  h dom mon dow command
+*/30 *   *   *   *  cd /app/schedule/ && python myships_crawler.py
+58   *   *   *   *  cd /app/schedule/ && python myships_account_login.py
+*/30 *   *   *   *  cd /app/schedule/ && python shipxy_crawler.py
+0    *   *   *   *  cd /app/schedule/ && python shipxy_account_login.py
+
+#* *   *   *   *  cd /app/schedule/ && python myships_crawler.py
+#* *   *   *   *  cd /app/schedule/ && python shipxy_crawler.py
