@@ -1,4 +1,4 @@
-# business_industry_crawler_cron
+# ship_crawler_cron
 使用 docker-compose，建立的可爬取寶船網、船訊網的 Container<br>
 
 # 說明
